@@ -1,13 +1,11 @@
 package com.lrh.asd.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.lrh.asd.BaseActivity;
+import com.lrh.asd.base.BaseActivity;
 import com.lrh.asd.R;
 
 public class MainActivity extends BaseActivity {

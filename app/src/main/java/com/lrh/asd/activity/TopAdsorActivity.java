@@ -3,9 +3,8 @@ package com.lrh.asd.activity;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
-import com.lrh.asd.BaseActivity;
+import com.lrh.asd.base.BaseActivity;
 import com.lrh.asd.R;
 
 /**

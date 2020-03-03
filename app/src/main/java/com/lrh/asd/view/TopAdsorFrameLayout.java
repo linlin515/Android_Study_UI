@@ -2,6 +2,7 @@ package com.lrh.asd.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -21,6 +22,7 @@ import com.lrh.asd.R;
  * @date 2020.03.03
  */
 public class TopAdsorFrameLayout extends FrameLayout {
+    private static final String TAG = "TopAdsorFrameLayout";
 
     private Context mContext;
 
@@ -79,7 +81,7 @@ public class TopAdsorFrameLayout extends FrameLayout {
         mSestedScrollView.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
             @Override
             public void onScrollChange(NestedScrollView nestedScrollView, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-
+                Log.d(TAG, "onScrollChange: scrollX = " + scrollX + "    scrollY = " + scrollY);
                 if (scrollY <= topMaginHeight) {
 
                     float scale = (float) scrollY / topMaginHeight;
