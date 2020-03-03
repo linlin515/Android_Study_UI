@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lui_colorPrimary">#cc0094ff</color>
+    <color name="lui_colorPrimaryDark">#33aaff</color>
+    <color name="lui_colorAccent">#2299ee</color>
+</resources>
