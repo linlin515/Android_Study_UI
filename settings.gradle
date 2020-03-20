@@ -1,2 +1,2 @@
-include ':app', ':appbarlayoutdemo'
+include ':app', ':appbarlayoutdemo', ':MaterrialDesignDemo'
 rootProject.name='Android Study UI'
