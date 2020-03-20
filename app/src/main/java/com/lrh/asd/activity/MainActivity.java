@@ -63,6 +63,8 @@ public class MainActivity extends BaseActivity {
             case R.id.eight:
                 Toast.makeText(this, "eight", Toast.LENGTH_SHORT).show();
                 break;
+            default:
+                break;
 
         }
         return true;
